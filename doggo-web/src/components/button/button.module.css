@@ -1,0 +1,11 @@
+.buttonContainer {
+  border-radius: 6px;
+  padding: 0.5rem 2rem;
+
+  font-weight: 700;
+  background-color: var(--primary);
+}
+
+.buttonContainer:hover {
+  background-color: #e6aa13;
+}

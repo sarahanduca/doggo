@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0 20rem;
+
+  --type-first: "Akshar", Arial, sans-serif;
+  --type-second: "Spectral", Georgia;
+  --dark-text: #0f0f0f;
+  --light-text: #333;
+  --primary: #eeb72b;
+  --secondary: #a7a5a2;
+
+  font-family: var(--type-first);
+  color: var(--light-text);
+
+  background-color: #f8f8f8;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input,
+a {
+  display: block;
+  padding: 0;
+
+  background: none;
+  border: none;
+  outline: inherit;
+  text-decoration: none;
+
+  font: 1rem;
+  font-family: var(--type-first);
+  color: var(--light-text);
+
+  cursor: pointer;
+}
